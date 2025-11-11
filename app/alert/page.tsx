@@ -1,31 +1,25 @@
-import { AlertInfo, AlertSuccess,AlertWarning,AlertDanger} from "@/components/alert";
-
+import { AlertInfo, AlertSuccess, AlertWarning, AlertDanger } from "@/components/alert";
 
 const TestAlert = () => {
-   return(
-       <div className="m-10">
-           <AlertInfo title="Test Alert" type="info">
-               This is a test alert
-           </AlertInfo>
+  return (
+    <div className="m-10">
+      <AlertInfo title="Test Alert" type="info">
+        This is a test alert
+      </AlertInfo>
 
-           <AlertSuccess title="Success!" type="Success">
-               This is a test alert
-           </AlertSuccess>
+      <AlertSuccess title="Success!" type="Success">
+        This is a test alert
+      </AlertSuccess>
 
-           <AlertWarning title="Warning" type="Warning!">
-               This is a test alert
-           </AlertWarning>
+      <AlertWarning title="Warning" type="Warning!">
+        This is a test alert
+      </AlertWarning>
 
-           <AlertDanger title="Danger!" type="Danger!">
-               This is a test alert
-           </AlertDanger>
+      <AlertDanger title="Danger!" type="Danger!">
+        This is a test alert
+      </AlertDanger>
+    </div>
+  );
+};
 
-           
-           
-       </div>
-   )
-}
-
-
-
-       
+export default TestAlert;
